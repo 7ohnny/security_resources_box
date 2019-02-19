@@ -1,0 +1,21 @@
+\s => space
+^  => init line
+$  => end line
+.* => any char
+
+
+id="1234" name="1234"
+id="(.*)" name="(.*)"
+
+
+====================
+
+Get emails
+   [\w.-]+@[\w.-]+|\{(?:\w+, *)+\w+\}@[\w.-]+
+
+====================
+
+Get lines with specific word
+   .*(WORD).*
+
+   entry=([0-9]{5})

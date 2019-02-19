@@ -1,0 +1,80 @@
+* Project Manage leaks *
+
+Future project ideia  is to use Kibana and ElasticSearch to manage leaks. 
+It's a great way to handle and  manage multiple types of information from people or organizations. 
+
+# Setup
+
+Elasticsearch
+Kibana
+Parser-excel-elasticsearch 
+
+# Step by Step
+
+-Install resources
+-File  .xls/xlsx with the raw data
+-Use Excelastic tu upload data to elasticsearch
+-Manage data in Kibana
+
+# Install
+
+Elastic
+
+systemctl start elasticsearch.service
+
+default: localhost:9200
+
+config file-
+
+####
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																						
+Kibana
+
+systemctl start kibana.service
+
+default: localhost:5601
+
+config file-
+
+####
+
+# File csv and xls
+Some tips to build your file with the leaks
+
+####
+$ awk '{$1=$1}1' OFS="," file
+1,ABC,12,M
+
+
+###
+$ unoconv --format  xls example.csv
+
+senha da outra conta
+####
+$ echo -e 'surname,name,age\nCarlo,Smith,23\nJohn,Doe,46\nJane,Doe,69\nSarah,Meyer,23\n' \
+     > example.csv
+$ unix2dos example.csv
+$ ssconvert example.csv example.xlsx
+$ ssconvert example.csv example.xls
+
+
+
+# Import mass leaks to your ElasticSearch
+
+https://github.com/codingchili/excelastic
+
+# Manage your leaks @ Kibana
+
+-search
+-export filtred data
+-build visualization
+
+
+
+# some public leaks 
+https://databases.today/search.php
+https://hashes.org/leaks.php
+
+# future research
+
+* Conveyor

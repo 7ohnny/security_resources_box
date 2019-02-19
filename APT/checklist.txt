@@ -1,0 +1,13 @@
+#TODO fillup techs
+
+ 1: Reconnaissance
+
+ 2: Spear phishing attacks
+
+ 3: Establish Presence
+
+ 4: Exploration and Pivoting
+
+ 5: Data Extraction
+
+ 6: Maintaining Persistence

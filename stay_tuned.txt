@@ -1,0 +1,18 @@
+//TODO
+Setion under development
+
+:sub reddits:
+
+r/AskNetsec
+r/netsec
+r/netsecstudents
+r/HowToHack
+r/pwned
+r/Python
+r/blackhat
+
+:news:
+
+https://thehackernews.com
+https://nakedsecurity.sophos.com/
+

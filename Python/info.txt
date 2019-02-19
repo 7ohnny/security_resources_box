@@ -1,0 +1,15 @@
+# resources , tips and cmds
+
+web scraping
+
+https://realpython.com/python-web-scraping-practical-introduction/
+
+
+
+# cmd
+subproccess - run foreground and waits to finish
+
+
+# directory listening
+Python 3: python -m http.server --bind 127.0.0.1 8080 // python -m  http.server 8000
+Python 2: python -m SimpleHTTPServer 8080

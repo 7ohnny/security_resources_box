@@ -1,0 +1,6 @@
+
+generating pgp key
+
+https://help.github.com/articles/generating-a-new-gpg-key/
+
+

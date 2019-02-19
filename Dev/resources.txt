@@ -1,0 +1,9 @@
+# Books
+
+
+
+# Resources
+
+https://prakharprasad.com/burp-suite-extension-development-series/
+http://decidedlygray.com/2017/08/10/modifying-and-building-burp-extensions/
+https://portswigger.net/blog/adapting-burp-extensions-for-tailored-pentesting
