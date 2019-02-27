@@ -6,12 +6,12 @@ This repository is a compilation of resources, sites, tips, studies in progress 
 Always Under development ^^
 
 
-##TODO
+## TODO
 
-add more tips and resources in the following sections
+add more tips and resources in the following sections:
 
-- Red Team resources
-- Scripting section resources
+- Red Team 
+- Scripting
 - Tools
 - Pentest_web
 - Dev
