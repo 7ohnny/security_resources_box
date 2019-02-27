@@ -1,7 +1,11 @@
 Wordlists
 
-project in GitHub
-fuzzdb
-wfuzz
-SecList
-commonspeak2-wordlists
+https://github.com/fuzzdb-project/fuzzdb
+https://github.com/xmendez/wfuzz
+https://github.com/danielmiessler/SecLists
+https://github.com/assetnote/commonspeak2-wordlists
+https://github.com/govolution/betterdefaultpasslist
+
+Generate Wordlists
+https://github.com/R3nt0n/bopscrk
+https://github.com/JackStouffer/Word-List-Generator

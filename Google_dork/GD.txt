@@ -1,1 +1,18 @@
-//TODO
+//Under dev
+
+Portals
+
+inurl:company and intext:password
+inurl:"/jira/login.jsp" intitle:"JIRA login"
+intitle:Login inurl:login.php intext:admin/admin
+intitle:access your account" login
+inurl:action=php.login
+intitle:admin intitle:login inurl:company
+
+Files
+intitle:"index of" and inurl:company
+intitle:"index of" hosts.csv | firewalls.csv | linux.csv | windows.csv
+filetype:xls + password + inurl:company
+ext:(doc | xls | txt | ps | rtf | odt | sxw | psw | ppt | pps | xml) inurl:company
+
+inurl:company intext:syntax
