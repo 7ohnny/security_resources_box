@@ -1,0 +1,11 @@
+# android resources
+
+https://github.com/sensepost/objection
+
+
+# app to help in Wi-Fi auditing
+https://github.com/chrisk44/Hijacker 
+
+
+# decompiler apk
+https://github.com/skylot/jadx
