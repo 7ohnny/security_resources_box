@@ -1,6 +1,8 @@
 # android resources
 
 https://github.com/sensepost/objection
+Android Package Inspector - dynamic analysis with api hooks, start unexported activities and more. (Xposed Module)
+https://github.com/ac-pm/Inspeckage
 
 
 # app to help in Wi-Fi auditing

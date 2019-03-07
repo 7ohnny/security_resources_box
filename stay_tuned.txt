@@ -16,3 +16,13 @@ r/blackhat
 https://thehackernews.com
 https://nakedsecurity.sophos.com/
 
+:Podcasts:
+
+https://malicious.life/
+https://risky.biz/netcasts/risky-business/
+https://wiki.securityweekly.com/Security_Weekly
+
+
+:Sites:
+
+https://www.sans.org/security-resources/

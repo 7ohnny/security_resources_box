@@ -1,0 +1,57 @@
+base syntax
+nmap [ScanType] [Options] {targets}
+
+#Target:
+IP         192.168.1.1 
+host       website.com
+IP range   192.168.0-255.0-255
+CIDR block 192.168.0.0/16
+file       -iL <file_name> 
+
+#Target Ports
+100 most     -F
+port range   -p<port1>-<port2>   
+port list    -p<port1>,<port2>   
+mix          -pU:53,U:110,T20-445   
+linearly     -r   
+popular port --top-ports <n>   
+Ports        -p-65535
+Ports        -p0   
+Ports 1      -p-       
+
+#Probing Options
+no probe     -Pn
+def probe    -PB
+tcp Ports    -PS <portlist>
+icmp echo rq -PE
+icmp ts rq   -PP
+icmp netmask -PM
+
+#Scan Types
+probe only  -sn
+SYN Scan    -sS
+TCP Scan    -sT
+UDP Scan    -sU
+version     -sV    
+OS detc     -O
+custom      --scanflags
+
+#Aggregate Timing
+slow        -T0
+slow2       -T1
+polite      -T2
+default     -T3
+aggressive  -T4
+insane      -T5
+
+#Other Options
+look IP off -n
+IP6 only    -b
++ features  -A
+nmap        --reason
+
+#Output
+standard    -oN 
+grep        -oG
+xml         -oX
+all 3       -oA <name>

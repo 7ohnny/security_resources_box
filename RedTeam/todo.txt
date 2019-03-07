@@ -1,2 +1,17 @@
 //TODO
-reunited resources
+#Reunited resources 
+#Organize this section
+
+
+
+################### DC Compromised ###################
+
+ntdsutil.exe tool backup AD creds
+script secretsdump.py,tool from  impacket,in the backup made to get the users' hashes
+
+
+impacket : https://github.com/SecureAuthCorp/impacket.
+
+
+Tool 
+ophcrack : http://ophcrack.sourceforge.net/
