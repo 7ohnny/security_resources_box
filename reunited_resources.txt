@@ -21,6 +21,9 @@ https://www.hack4.net/search/label/pentest%20tool?updated-max=2019-01-26T19:00:0
 # External pentest history
 https://threader.app/thread/1063423110513418240
 
+# Great pentest's resources
+https://highon.coffee
+
 :hacksites:
 
 https://www.hackthis.co.uk/
