@@ -6,6 +6,7 @@
 
 :Gits :
 
+https://github.com/The-Art-of-Hacking/h4cker
 
 
 :tools reunited:
@@ -17,6 +18,8 @@ https://www.hack4.net/search/label/pentest%20tool?updated-max=2019-01-26T19:00:0
 
 
 :links:
+
+https://adsecurity.org/
 
 # External pentest history
 https://threader.app/thread/1063423110513418240
