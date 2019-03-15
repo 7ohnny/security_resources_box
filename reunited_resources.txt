@@ -7,6 +7,8 @@
 :Gits :
 
 https://github.com/The-Art-of-Hacking/h4cker
+https://github.com/enaqx/awesome-pentest
+https://github.com/Hack-with-Github/Awesome-Hacking/
 
 
 :tools reunited:
@@ -16,8 +18,9 @@ https://www.hack4.net/search/label/pentest%20tool?updated-max=2019-01-26T19:00:0
 :udemy courses: 
 
 
-
 :links:
+
+https://securityonline.info/
 
 https://adsecurity.org/
 
