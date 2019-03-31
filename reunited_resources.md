@@ -1,36 +1,29 @@
-// TO DO 
 - Setion under development
 
-:books:
+# Gits
+
+* https://github.com/The-Art-of-Hacking/h4cker
+* https://github.com/enaqx/awesome-pentest
+* https://github.com/Hack-with-Github/Awesome-Hacking/
 
 
-:Gits :
-
-https://github.com/The-Art-of-Hacking/h4cker
-https://github.com/enaqx/awesome-pentest
-https://github.com/Hack-with-Github/Awesome-Hacking/
+# Tools reunited
+* https://www.hack4.net/search/label/pentest%20tool?updated-max=2019-01-26T19:00:00%2B01:00&max-results=20&start=1&by-date=false
 
 
-:tools reunited:
-https://www.hack4.net/search/label/pentest%20tool?updated-max=2019-01-26T19:00:00%2B01:00&max-results=20&start=1&by-date=false
+# Links with tips and tools:
+* https://www.kitploit.com
+* https://pentesttools.net
+* https://securityonline.info/
+* https://adsecurity.org/
+* https://highon.coffee
+* https://null-byte.wonderhowto.com/
 
-
-:udemy courses: 
-
-
-:links:
-
-https://securityonline.info/
-
-https://adsecurity.org/
 
 # External pentest history
-https://threader.app/thread/1063423110513418240
+* https://threader.app/thread/1063423110513418240
 
-# Great pentest's resources
-https://highon.coffee
-
-:hacksites:
+# Hacksites
 
 https://www.hackthis.co.uk/
 https://www.root-me.org/?lang=en

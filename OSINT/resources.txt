@@ -33,3 +33,10 @@ https://inteltechniques.com/buscador/index.html
 [pagodo](https://github.com/opsdisk/pagodo) - Automate Google Hacking Database scraping.
 
 from: osintframework and enaqx - awesome-pentest
+
+Privacy
+Free OS
+Offline password manager (KeepassX)
+Secure Mail and communications
+Online removal
+Social media -> browser

@@ -1,8 +1,0 @@
-# Books
-
-Advanced Penetration Testing , Wil Allsopp
-
-
-# Resources
-
-https://github.com/kbandla/APTnotes

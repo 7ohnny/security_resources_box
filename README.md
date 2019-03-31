@@ -6,13 +6,44 @@ This repository is a compilation of resources, sites, tips, studies in progress 
 Always Under development ^^
 
 
+# Sections
+
+├── APT
+│   └── Powershell
+├── Cheatsheets
+├── Dev
+│   ├── Dev_Burp
+│   └── Dev_Zap
+├── Docker
+├── Firewall
+├── Google_dork
+├── JSON
+├── Kibana-elastic-manage-leaks
+├── Misc
+├── Mobile
+│   ├── Android
+│   │   └── Scripts
+│   └── iOS
+├── OSINT
+├── Pentest
+│   └── Subdomains
+│       └── Wordlists
+├── Pentest_web
+│   └── tools
+├── RedTeam
+├── Reporting
+├── Scripting
+│   ├── Bash
+│   │   └── Scripts
+│   ├── Python 101
+│   │   └── Scripts
+│   └── Ruby 101
+├── Tools
+└── Wi-Fi
+    └── Scripts
+
+
+
 ## TODO
 
-add more tips and resources in the following sections:
-
-- Red Team 
-- Scripting
-- Tools
-- Pentest_web
-- Dev
-- Misc
+Add more tools, scripts, tips, resources and techniques in all the sections.
