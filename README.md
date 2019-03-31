@@ -8,41 +8,29 @@ Always Under development ^^
 
 # Sections
 
-├── APT
-│   └── Powershell
-├── Cheatsheets
-├── Dev
-│   ├── Dev_Burp
-│   └── Dev_Zap
-├── Docker
-├── Firewall
-├── Google_dork
-├── JSON
-├── Kibana-elastic-manage-leaks
-├── Misc
-├── Mobile
-│   ├── Android
-│   │   └── Scripts
-│   └── iOS
-├── OSINT
-├── Pentest
-│   └── Subdomains
-│       └── Wordlists
-├── Pentest_web
-│   └── tools
-├── RedTeam
-├── Reporting
-├── Scripting
-│   ├── Bash
-│   │   └── Scripts
-│   ├── Python 101
-│   │   └── Scripts
-│   └── Ruby 101
-├── Tools
-└── Wi-Fi
-    └── Scripts
+APT/
+Cheatsheets/
+Dev/
+Docker/
+Firewall/
+Google_dork/
+JSON/
+Kibana-elastic-manage-leaks/
+Misc/
+Mobile/
+OSINT/
+Pentest/
+Pentest_web/
+RedTeam/
+Reporting/
+Scripting/
+Tools/
+Wi-Fi/
 
+### Sites, podcasts, blogs, subreddits and a variety of info security resources 
 
+stay_tuned.txt
+reunited_resources.md
 
 ## TODO
 
