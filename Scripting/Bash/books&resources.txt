@@ -6,3 +6,7 @@
 
 Cheat-sheet bash
 https://devhints.io/bash
+
+
+# make a quick wordlist
+for x in {0..9}{0..9}{0..9}{0..9}{0..9}test; do echo $x; done
