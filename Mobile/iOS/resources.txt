@@ -5,3 +5,5 @@ https://www.frida.re/docs/ios/
 https://securityonline.info/passionfruit-crappy-ios-app-analyzer/ - https://github.com/chaitin/passionfruit
 
 https://github.com/sensepost/objection
+
+Mango tool

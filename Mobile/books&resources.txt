@@ -1,6 +1,7 @@
 # Books
 
-
+ios application security - David Thiel
+android security internals -  Nikolay Elenkov
 
 
 # Resources

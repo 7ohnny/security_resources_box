@@ -36,7 +36,38 @@ default: localhost:5601
 
 config file-
 
-####
+######
+
+setup
+
+* cert in elasticserach *
+
+openssl pkcs12 -in PKCS12file -out keys_out.txt
+ 
+*After entering the above command you will receive these prompts:
+
+Enter Import Password: (this is the password that was used when the PKCS12 file was created)
+
+MAC verified OK
+
+Enter PEM pass phrase: (this is the private key password)
+
+Verifying - Enter PEM pass phrase: (confirm the private key password)
+ 
+The private key, certificate, and any chain files (roots) will be parsed and dumped into the "keys_out.txt" file.
+
+
+openssl pkcs12 -in elastic-certificates.p12 -cacerts -nokeys -out elastic-ca.pem
+
+
+Kibana
+
+
+bin/elasticsearch-setup-passwords interactive | auto
+
+
+######
+* Ways to generate csv files :
 
 # File csv and xls
 Some tips to build your file with the leaks
@@ -49,8 +80,7 @@ $ awk '{$1=$1}1' OFS="," file
 ###
 $ unoconv --format  xls example.csv
 
-senha da outra conta
-####
+######
 $ echo -e 'surname,name,age\nCarlo,Smith,23\nJohn,Doe,46\nJane,Doe,69\nSarah,Meyer,23\n' \
      > example.csv
 $ unix2dos example.csv
