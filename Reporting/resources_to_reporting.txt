@@ -5,6 +5,7 @@ https://github.com/SerpicoProject/Serpico.git
 
 https://github.com/vegabird/prithvi
 
+https://www.blacklanternsecurity.com/2020-12-02-WriteHat/
 
 # nessus
 https://github.com/Shellntel/vcr

@@ -1,0 +1,72 @@
+#### Tests
+-Takeaways from tests
+
+&& Udemy tests &&
+
+System administrator is responsible for access control in the MAC model. The owner of the organization will be responsible for DAC. The RBAC is dependent on the role played by the user in the organization.
+
+The information of mapping users to their permissions for resource access would be available in the ACL.
+
+MAC uses a static or predefined set of access privileges and hence cannot allow dynamic sharing of resources.
+
+CHAP authentication - Whenever a user requests login, the Server poses a challenge and then the user provides the requested password and then the server will decide based on the credentials if it should authorize the user or not. This is what is referred to as three-way handshake.
+
+key escrow - When we talk about escrow we’re talking about a third party that’s holding something for us. This may be money. It may be a document. In the case of cryptography it’s usually a key. It’s the encryption keys.
+ 
+And the encryption key, for some third party to hold it, needs to be stored so that we would have some way to decrypt information should something happen to the original key. It’s a very important part– especially for large organizations that are encrypting a lot of different things– you need some fail-safes in place. But you need to keep the key, obviously, somewhere very, very safe.
+
+You don’t want anybody getting their hands on that key. Because very often everything is built upon that key, whenever we’re doing encryption. And we don’t want people getting into our private information. If you are planning ahead and you are storing these keys, or you have a methodology in place to automatically store these keys, it can save you a lot of time and a lot of grief later.
+
+
+When we deal with acronyms we should ALWAYS refer to the official CompTIA Security+ Syllabus: on the syllabus you can see that BPA is NOT "Business Process Analysis" but "Business Partners Agreement", a document that of course doesn't relate to the question, so A can't be the right answer.
+The best answer would be BIA ("Business Impact Analysis"), which is a document that among other things, identify critical systems and components; anyway, as the BIA is actually a subsection of the BCP (Busniness Continuity Planning), the given answer (D) is right
+
+&& Messer &&
+
+Key strectching - Increase the strength of a weak key -  bcrypt- blowfish //  PBKDF2
+PFS (Perfect Foward Secrecy)- Real time key exchange - session key
+X.500 - LDAP
+Hash algorithm -  HMAC(hash-based message authentication) / sha-1(secure hash algorithm) 
+encryption cipher -RC4(Rivest cipher 4) / DSA (digital signature algorithm) / 3DES Triples DE
+Cryptographic attack - birthday attack algorithm - hash collision through brute force 
+*Prevent a switch address table DoS - enable flood guards (Configure a maximum number of source MAC addresses on an internface/ the switch monitors the number of unique MAC addresses)
+- *x.500 specification communication - LDAP(Lightweight) port 389 tcp/udp
+    [LDAP is the protocol used to query  and update an x.500 directory]
+- IPsec Security for OSI layer 3- authentication n' encryption for every packet 
+    confidentiality and integrity / anti-replay - encryption n' packet signing 
+    2 core  IPsec protocols AH (Authentication header) n' ESP (encapsulation security payload)
+HSM(hardware securiry module)
+EAL4 - evaluation assurance level 1 to 7 - also called common criteria (CC) - validated systems a certain level of security EAL4 is the most accepted minimum level 
+search emi leakage *
+Symmetric algorithm - RC4 , Twofish 
+Asymmetric algorithm - RSA(rivest, shamir, adelman) , DSA 
+hash algorithm - MD5, SHA-1, RIPEMD
+TOTP - time-based one-time password algorithm - use a secret key and time of day- login 2FA
+- Security controls 
+    Login banner/Warning signs  - security control Deterrent (Discourages an intrusion attempt) - 
+    Door lock - security control Preventive 
+    IDS - security control Detective - identifies and records any intrusion attempet
+    Uninterruptable power supply - Compensating security control - backup / plan B
+    Fence - security control Deterrent
+Weak  encryption - DES (56-bit keys), WEP (design flaw) x Strong encryption PGP, AES
+protocols that doesn't have encryption - telnet, ftp , smtp, imap
+software based vpn would be the best choice between 2 pcs - Host-to-host user to user encryptpion
+smart card - something you have
+- protocols
+ssh - cli to access router
+srts - calls
+ldaps - auth directory services
+ntp/ntpsec(?) - sync time
+- category of disaster recovery site 
+Warm - eg provide racks and equipmenet, but not software 
+3DES triple DES - > AES
+Nmap to scan services on an ip address
+source ip dest ip tcp 80/443 block 
+storaded locally
+PAP/ CHAP MS-CHAP - challenge message  during authentication proccess 
+backup differential - check details. last backup to do a full recovery
+encryption term - diffusion = little changes generates a completly different encryption message
+CASB - provide security cloud based  web app 
+Key escrow third party systems
+S/MIME - email with digitally signed and encryption
+Compensating security control - doesn't prevent an attack - backups, hot site , ups power backup

@@ -1,0 +1,7 @@
+To check:
+
+Usage of .random for critical oprations
+passwords related functions
+    stored
+    validation
+sql queries and "order by"

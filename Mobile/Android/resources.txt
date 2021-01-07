@@ -7,10 +7,10 @@ https://github.com/ac-pm/Inspeckage
 
 https://github.com/nccgroup/house/blob/master/README.md
 
-
 # app to help in Wi-Fi auditing
 https://github.com/chrisk44/Hijacker 
 
-
 # decompiler apk
-https://github.com/skylot/jadx
+* enjarify - https://github.com/google/enjarify/
+* JD-GUI - http://jd.benow.ca/
+* JADX - https://github.com/skylot/jadx

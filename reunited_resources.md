@@ -104,3 +104,11 @@ https://exploit.education/
 
 Root in Jail
 http://ctf.rootinjail.com
+
+https://wectf.io/
+
+https://kringlecon.com/
+
+Lifecycle
+
+https://owaspsamm.org/release-notes-v2/

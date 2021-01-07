@@ -20,6 +20,8 @@
 * https://risky.biz/netcasts/risky-business/
 * https://wiki.securityweekly.com/Security_Weekly
 * https://pentester.land/podcast
+* https://darknetdiaries.com/
+* https://7ms.us/
 
 # Sites
 

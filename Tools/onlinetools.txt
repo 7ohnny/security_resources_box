@@ -1,4 +1,8 @@
 :hash:
 
-http://finder.insidepro.team/
-https://hashes.org/public.php    
+https://hashes.org/public.php 
+https://hashkiller.co.uk/
+
+:fromatter:
+https://www.freeformatter.com/json-formatter.html
+https://jsoneditoronline.org/

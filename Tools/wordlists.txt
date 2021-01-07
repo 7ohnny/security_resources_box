@@ -5,6 +5,7 @@ https://github.com/xmendez/wfuzz
 https://github.com/danielmiessler/SecLists
 https://github.com/assetnote/commonspeak2-wordlists
 https://github.com/govolution/betterdefaultpasslist
+https://github.com/BlackArch/wordlistctl
 
 Generate Wordlists
 https://github.com/R3nt0n/bopscrk

@@ -1,0 +1,441 @@
+some questions
+-Which of the following algorithms won the U.S. government?sponsored competition to become the Advanced Encryption Standard (AES)?
+Rijindael was selected as the winner of the NIST competition and became the U.S. government?s Advanced Encryption Standard (AES).
+
+-Risk assessment means evaluating which of the following elements? (Choose two.)
+Probability and impact values are evaluated and assessed during a risk assessment.
+
+-Which type of cloud service is usually operated by a third-party provider that sells or rents "pieces" of the cloud to different entities, such as small businesses or large corporations, to use as they need?
+A public cloud is operated by a third-party provider who leases space in the cloud to anyone who needs it.
+
+-false rejection rate 
+type 1 error = the error caused from rejecting someone who is in fact an authorized user
+A false reject rate (FRR) is the error caused from rejecting an authorized user; it is also called a Type I error.
+FAR type 2 error
+
+-Which of the following attacks might involve an attacker attempting to enter a facility with arms full of boxes, in an attempt to gain sympathy and have someone open the door for him or her?
+A tailgating person might use some sort of creative pretext to convince someone to open the door and allow him or her to enter without proper identification.
+Incorrect Answers:
+Impersonation could be used to enter a facility, but it is not being used to do so in this case.
+
+-Wissa is updating a printer driver on a Windows system. She downloads the latest driver from the manufacturer's Web site. When installing the driver, Windows warns that the driver is unsigned. To which of the following threats is Wissa exposing her system?
+Correct Answer:
+A refactored driver will work correctly, but might also perform other, malicious actions.
+Incorrect Answers:
+Man-in-the-middle might be a result of the refactor, but is not the threat itself.
+Version control refers to formally tracking different versions of the baseline configuration.
+Shimming is a library that responds to inputs that the original device driver isn?t designed to handle and would require a separate file.
+
+-What is the biggest difference between EAP-TLS and EAP-TTLS?**
+EAP-TLS needs server and client certifcates; EAP-TTLS only needs server certifcates.
+
+-Which of the following is not a characteristic of effective signage?
+Signage should indicate the location and route to emergency evacuation exits, not security checkpoints, in the event of an emergency requiring evacuation.
+
+-Which of the following terms indicates the length of time a device =
+The mean time to failure (MTTF) is the length of time a device is expected to last in operation. In MTTF, only a single, definitive failure will occur and will require that the device be replaced rather than repaired.
+Mean time between failures (MTBF) represents the manufacturer's best guess (based on historical data) regarding how much time will pass between major failures of that component. This assumes that more than one failure will occur, which means that the component will be repaired, rather than replaced.
+Mean time to recovery (MTTR) is the amount of time it takes for a hardware component to recover from failure.
+
+-Which of the following is the simplest form of disaster recovery exercise?
+The documentation review is the simplest form of test. In this type of test, the business continuity plan, disaster recovery plan, and associated documents are reviewed by relevant personnel including managers, recovery team members, and anyone else who may have responsibilities directly affecting plans.
+A tabletop exercise is a type of group review. - more expensive?
+
+-Which the following is a recognized way of restricting access to applications?
+Blacklisting is a technique that involves an administrator adding undesirable or restricted software or applications to a list on content filtering devices, in group policy, or through some other type of mechanism. This ensures that users are not allowed to download, install, or execute these particular applications.
+
+-Which of the following secure file copy protocols is used over an SSL or TLS connection?
+Correct Answer:
+*FTPS* is a secure version of the non-secure FTP protocol and is used over SSL or TLS connections to ensure security when transferring files to or from an Internet-based host.
+Incorrect Answers:
+FTP is a non-secure protocol used to copy files to and from Internet-based hosts.
+SCP is a secure copy protocol used to copy files securely to and from a networked host, and it uses SSH.
+*SFTP* is a secure file transfer protocol used to copy files to and from an Internet-based host, and it also uses *SSH*.
+
+-Correct Answers
+99.99 percent availability accounts for 52 minutes of downtime per year.
+Incorrect Answers:
+99.999 percent availability allows only 5.26 minutes of downtime per year, which may not be enough if the server requires almost an hour of maintenance time.
+99.9 percent availability equates to more than 8 hours of downtime per year and exceeds the stated requirement.
+99 percent availability is more than 3 days of downtime per year, far exceeding the requirement for no more than 1 hour of downtime.
+
+
+A penetration test actually attempts to exploit any found weaknesses (usually after a vulnerability assessment) to gain access to systems.
+
+- Which of the following is a key agreement protocol used in public key cryptography?
+Elliptic Curve Diffie-Hellman (ECDH) is a key exchange protocol used in public key cryptography. It is used to negotiate, agree upon, and establish a secure session between two parties.
+
+Incorrect Answers:
+RSA (Rivest-Shamir-Adleman) is the most common public-private key generation algorithm used in public key cryptography. It is used to generate a public and private key pair.
+AES is the Advanced Encryption Standard, and it is not used in public key cryptography; it is a symmetric key cryptography algorithm.
+SHA-2 is the second iteration of the Secure Hashing Algorithm and is used to generate message digests for plaintext. It is not used in public key cryptography to exchange keys or establish secure sessions.
+
+-Which of the following statements best defines the recovery point objective (RPO)?
+Correct Answers:
+The RPO is the maximum allowable amount of data (measured in terms of time) that the organization can afford to lose during a disaster or an incident.
+Incorrect Answers:
+The RPO is the maximum amount of data, not the minimum, that can be lost during a disaster or an incident.
+RPO refers to data that can be lost, not time itself.
+RPO is measured in time, not gigabytes.
+
+Correct Answer:
+
+Patch management is the formal effort designed to *remediate vulnerabilities* and other software flaws on a regular basis.
+
+Incorrect Answers:
+
+Managing upgrades is part of a formal change and configuration management process.
+
+Account management is the process of provisioning and maintaining user accounts on the system.
+
+Change management is a formalized process that involves both long-term and short-term infrastructure changes, as well as configuration changes to hosts and networks.
+
+During which type of assessment would penetration testers not have any knowledge about the network and network defenders have no knowledge of the test itself?
+In a double-blind test, testers have no prior knowledge of the network they are testing, and network defenders have no prior knowledge of the test and aren't aware of any attacks unless they can detect and defend against them. This test is designed to test the defenders' abilities to detect and respond to attacks and to test and exploit vulnerabilities on the network.
+
+What size is the initialization vector (IV) for the Temporal Key Integrity Protocol (TKIP), used in the WPA standard?Correct Answer:
+
+The IV size for TKIP is 48-bit.
+
+Correct Answer:
+
+L2TP aligns to TCP port 1701, allowing secure remote access to a system through a VPN connection.
+
+Incorrect Answer:
+
+UDP port 53 aligns to the Domain Name Service (DNS), UDP port 123 is used by Network Time Protocol (NTP) services, and TCP port 443 is used by HTTP over SSL.
+
+Correct Answer:
+
+A deterrent control keeps someone from performing a malicious act, provided that he or she knows the control is there and is aware of the consequences for violating it.
+
+Incorrect Answers:
+
+The difference between a deterrent control and a preventive control is that it is necessary for a potential attacker to have knowledge of the deterrent control for it to be effective. Users do not have to have knowledge of a preventative control for it to function.
+
+A corrective control is used to correct a condition when there is either no control at all, or when the existing control is ineffective. Normally, a corrective control is temporary until a more permanent solution is put into place.
+
+A compensating control assists and mitigates the risk when an existing control is unable to do so.
+
+Correct Answer:
+
+The Online Certificate Status Protocol (OCSP) is used to obtain the revocation status of digital certificates. It is used as an alternative to certificate revocation lists(CRL) and enables clients to request and receive the electronic status of digital certificates automatically and in real-time.
+
+Incorrect Answers:
+
+Diffie-Hellman Exchange (DHE) is a key negotiation and agreement protocol used in public key cryptography.
+
+RSA is the de facto standard used to generate public and private key pairs in a PKI.
+
+Elliptic curve cryptography (ECC) is a public key cryptography protocol used on small mobile devices, due to its low power and computing requirements.
+
+All of the following are characteristics of the RADIUS authentication protocol, EXCEPT:
+
+Correct Answer:
+
+RADIUS does not use TCP.
+
+Incorrect Answers:
+
+All of these are characteristics of the RADIUS protocol.
+
+Correct Answer:
+
+Halon is a dangerous chemical that was previously used in data centers to suppress fires. However, it was banned in 1987 because it is also dangerous to human beings.
+
+Incorrect Answers:
+
+Water is still used to combat certain classes of fires.
+
+Carbon dioxide is used to combat both liquid and electrical fires.
+
+FM-200 has generally replaced Halon in data center fire suppression systems.
+
+Which of the following technologies allows devices to communicate with each other at very close range through radio signals by using a special chip implanted in the device, and may be vulnerable to eavesdropping and man-in-the-middle attacks?
+Near-field communication NFC  is enables devices to send very low-power radio signals to each other by using a special chip implanted in the device. This technology requires that the devices be extremely close or even touching each other. This technology is used for a wide variety of applications, including payments through NFC-enabled smartphones.
+
+Incorrect Answers:
+
+Neither 802.11 wireless nor Bluetooth technologies are used in this manner.
+
+Infrared does not use radio frequency technology; it enables communications between devices using a beam of light.
+
+Which of the following types of network-connected systems can manage heating, ventilation, and air-conditioning controls?
+Supervisory control and data acquisition (SCADA) systems are used to control and manage heating, ventilation, air-conditioning, and other types of industrial and environmental systems.
+
+Incorrect Answers:
+
+Minicomputers are antiquated computers that performed advanced tasks in the place of mainframe systems and are no longer widely in use.
+
+Although some SCADA -  N IPS - systems could be embedded, embedded hosts normally refer to systems that have operating systems burned into their computer chips.
+
+Mainframe systems normally do not control industrial types of systems, such as heating, ventilation, and air-conditioning.
+
+Cloud:
+Accountability and responsibility can be established through effective security controls and well-written service-level *agreements*.
+
+Incorrect Answers:
+
+Lack of control over data and the infrastructure is probably the greatest risk to cloud computing and cannot be completely managed through agreements.
+
+Cloud computing usually increases the availability of data for users, since it is typically built on highly available, redundant infrastructures.
+
+Correct Answer:
+
+To provide continuous power, you will need a generator, often gas-powered, that can provide power continuously until electrical power is restored. Be sure that you have enough gas! For very critical systems, multiple generators (tested regularly) are a common control.
+
+Incorrect Answers:
+
+A power conditioner helps provide clean power that is less likely to harm systems; it has nothing to do with power outages.
+
+UPSes and battery backups are incorrect because they provide backup power for only a short period of time and are often used to allow a graceful shutdown of less critical systems.
+
+Correct Answer:
+
+*Key streaming* involves sending individual characters of the key through an algorithm and using a mathematical XOR function to change the output.
+
+Incorrect Answers:
+
+Key repetition is not a valid answer or term.
+
+Key exchange involves generating and exchanging an asymmetric key used for a particular communications session, or exchanging public keys in order to use them for public key cryptography.
+
+Key stretching is a technique used to change a weak key to a stronger key by feeding it into an algorithm to produce an enhanced key.
+
+Correct Answer:
+
+Privilege creep. Bradley keeps getting new privileges, yet nothing is turned off.
+
+Correct Answers:
+
+Install and configure SAMBA on the Linux systems to access the AD and then set up access to the resources on the sharing sysytem (in this case the file server).
+
+Correct Answer:
+
+RSA (Rivest-Shamir-Adleman) is the most common public-private key generation algorithm used in public key cryptography. It is used to generate a public and private key pair.
+
+Incorrect Answers:
+
+Elliptic Curve Diffie-Hellman (ECDH) is a key exchange protocol used in public key cryptography. It is used to negotiate, agree upon, and establish a secure session between two parties.
+
+AES is the Advanced Encryption Standard, which is not used in public key cryptography; it is a symmetric key cryptography algorithm.
+
+SHA-2 is the second iteration of the Secure Hashing Algorithm and is used to generate message digests for plaintext. It is not used in public key cryptography to exchange keys or establish secure sessions.
+
+Correct Answer:
+
+Key escrow involves a third party that holds a special third key in addition to your private and public key pair.
+
+Incorrect Answers:
+
+A CRL (certificate revocation list) is not valid in this scenario, as certificate authorities and registrars are used during the certificate life cycle to publish digital certificates.
+
+Correct Answer:
+
+Demonstrative evidence, which can be in the form of charts, graphs, drawings, and so forth, is used to help non-technical people, such as the members of a jury, understand an event.
+
+Incorrect Answers:
+
+Exculpatory evidence proves innocence.
+Inculpatory evidence proves guilt.
+Documentary evidence email phto videos directly supports or proves a definitive assertion.
+Correct Answer:
+
+FM-200 generally replaced halon(banned in 1987) in data center fire suppression systems.
+
+The United States Department of Defense uses a specific form of personal identification verificatication (PIV) card called?
+Correct Answer:
+
+CAC (common access control) card. RSA is a popular asymetric encryption.
+
+Incorrect Answers:
+
+HOTP (HMAC-based one-time password) is an algorithm used to generate one-time passwords and a physical access control (PAC) describes the mechanisms for admitting and denying user access to your space.
+
+Correct Answer:
+
+Company Owned, Business Only (COBO) devices are owned and controlled completely by the organization.
+
+Incorrect Answers:
+
+Bring your own device (BYOD) means the employee owns the device.
+
+Choose your own device (CYOD) means the organization retains ownership, but employeess may install personal apps on the device.
+
+Company-issued, personally-enabled (COPE) is similar to CYOD, but employees are limited to installing only white-listed apps.
+
+Correct Answer:
+
+RSA (Rivest-Shamir-Adleman) is the most common public-private key generation algorithm used in public key cryptography.
+
+Incorrect Answers:
+Elliptic Curve Diffie-Hellman (ECDH) is a key exchange protocol used in public key cryptography. It is used to initially negotiate, agree upon, and establish a secure session between two parties.
+
+AES is the Advanced Encryption Standard, and it is NOT used in public key cryptography; it is an asymmetric key cryptography algorithm.
+
+SHA-2 is the second iteration of the Secure Hashing Algorithm and is used to generate message digests for plaintext. It is not used in public key cryptography to exchange keys or establish secure sessions.
+
+Correct Answer:
+
+A security identifier (SID) is a unique number assigned to each individual user account. It's never used, even when an account is deleted and re-created.
+
+Incorrect Answers:
+
+Both a UID and GID refer to unique numbers in Linux and UNIX-based systems that identify users and groups.
+
+An access control entry (ACE) is a unique entry in an access control list (ACL) that describes a user's permissions for accessing objects.
+
+Correct Answer:
+
+In a walkthrough test, team members go through the motions of fulfilling the responsibilities and conducting the activities required during an actual incident or disaster.
+
+Incorrect Answers:
+
+A tabletop exercise is a type of group review.
+
+The documentation review is the simplest form of test, in which the business continuity plan, disaster recovery plan, and associated documents are reviewed by relevant personnel including managers, recovery team members, and anyone else who may have responsibilities directly affecting plans.
+
+In a full-scale test, all personnel are usually involved and may actually conduct activities as they would during a real incident. This type of test is more complex and normally requires extensive resources, such as people and equipment, so it is typically conducted infrequently.
+
+Diffie-Hellman Exchange (DHE) is a key negotiation and agreement protocol used in public key cryptography.
+
+Correct Answer:
+
+A threat assessment looks at events that could exploit vulnerabilities.
+
+Incorrect Answers:
+
+A vulnerability assessment looks for weaknesses in systems.
+
+A risk assessment is a combination of assessments and is designed to assess factors, including likelihood and impact that affect an asset.
+
+A penetration test attempts to exploit actual vulnerabilities found within the systems.
+
+Correct Answer:
+
+TACACS+ encrypts everything between all connection points.
+
+Incorrect Answers:
+
+Kerberos is an open standard as is TACACS+. Open standards are consided more safe than proprietary. 
+TACACS+ doesn't define what encryption to use, but RC4 is dated and insecure.
+
+PCL protocol printer -> SNMP data leaving the printer will not be properly encrypted.
+
+Which of the following cryptographic attacks would salting of passwords render -> Rainbow tables
+
+mutual authentication and delegation. -> Kerberos
+
+A smurf attack is a type of ICMP attack where large amounts of ping packets are sent from a spoofed IP address on the network to the network broadcast address, causing many replies back to the victim and possibly bringing about a denial of service. A smurf attack is an example of a DDoS attack.
+
+You are configuring IPSec on your network and need to allow for security association (SA) traffic to pass through the firewall. Which of the following ports does the Internet Key Exchange (IKE) protocol, which is the protocol responsible for the SA setup within IPSec, use? IKE uses UDP port 500.
+
+Hash  -  md5 128-bit //  sha-1 160-bits // RIPEMD 160 bits
+
+When users connect to the wireless network, management wants them to receive a message asking them to agree to the terms of use before being granted wireless network access. What network service could be used to perform this goal? - > NAC
+
+Residual risk is what risk remains after all mitigation and reduction strategies have been implemented.
+
+Microsoft CHAP (MS-CHAP) uses Microsoft Point-to-Point Encryption (MPPE) protocol to encrypt all traffic from the client to the server.
+
+- TACACS encrypts all information between the client and server, whereas RADIUS servers switches routers vpn concetrators  only encrypts the passwords.
+
+symmetric encryption algorithm 3DES e AES
+
+Correct Answers:
+*Bluebugging* - (calls) the most serious of the various Bluetooth attacks, involves an attacker attempting to take control of or use a Bluetooth-enabled cell phone to place calls.
+Incorrect Answers:
+Bluejacking (send) is the act of *sending* unsolicited messages or files to a Bluetooth device.
+Bluesnarfing (access info) is a more serious attack than Bluejacking and involves unauthorized access to information on a Bluetooth-enabled device.
+
+A fail-safe device responds by not doing anything to cause harm when the failure occurs. 
+
+A fail-secure device responds by making sure the device is using a secure state when a failure occurs.
+
+The maximum tolerable downtime (MTD) indicates how long an asset may be down or offline without seriously impacting the organization.
+
+Incorrect Answers:
+
+The mean time between failures is an estimate of how long a piece of equipment will perform before failure.
+
+Recovery point objective RPO - how much data may be lost during a failure or disaster before the organization is seriously impacted.
+Recovery time objective RTO  - the maximum amount of time it must take to recover the system or data, before the organization is seriously impacted.
+
+The business impact analysis (BIA) is a critical first step in developing the business continuity plan (BCP). It involves determining what risks are present and their effects on the business and its assets.
+
+Incorrect Answers:
+
+The BCP is the overall and final product that the BIA contributes to. The BIA must be completed as one of the first steps, as it essentially is the risk assessment for the BCP.
+
+The disaster recovery plan (DRP) concerns itself with recovering the assets and operations of the business immediately following a disaster.
+
+A system backup plan is but one element of the DRP and may or may not be one of the first things accomplished for that plan.
+
+IPSec provides encryption services for L2TP 1701(tcp) when used in a VPN implementation.
+
+OBJ-4.2: Security assertions markup language (SAML) is an XML-based framework for exchanging security-related information such as user authentication, entitlement, and attributes. SAML is often used in conjunction with SOAP. SAML is a solution for providing single sign-on (SSO) and federated identity management. It allows a service provider (SP) to establish a trust relationship with an identity provider (IdP) so that the identity of a user (the principal) can be trusted by the SP without the user having to authenticate directly with the SP. The principal's User Agent (typically a browser) requests a resource from the *service provider (SP)*. The resource host can also be referred to as the relying party (RP). If the user agent does not already have a valid session, the SP redirects the user agent to the identity provider (IdP). The IdP requests the principal's credentials if not already signed in and, if correct, provides a SAML response containing one or more assertions. The SP verifies the signature(s) and (if accepted) establishes a session and provides access to the resource.
+
+OBJ-5.5: When collecting evidence, you should always follow the order of volatility. This will allow you to collect the most volatile evidence (most likely to change) first, and the least volatile (least likely to change) last. You should always begin the collection with the CPU registers and cache memory (L1/L2/L3/GPU). The contents of system memory (RAM), including a routing table, ARP cache, process tables, kernel statistics, and temporary file systems/swap space/virtual memory. Next, you would move onto the collection of data storage devices like hard drives, SSDs, and flash memory devices. After that, you would move onto less volatile data such as backup tapes, external media devices (hard drives, DVDs, etc.), and even configuration data or network diagrams.
+
+password spraying that focuses on attempting only one or two passwords per user, a brute force attack focuses on trying multiple passwords for a single user.
+DSA asymmetric 
+AES, RC4, and DES are all symmetric algorithms.
+
+OBJ-5.8: Tokenization means that all or part of data in a field is replaced with a randomly generated token. The token is stored with the original value on a token server or token vault, separate from the production database.
+
+Via voip and others systems
+OBJ-2.5: NIST’s SP 800-63-3 recommends that SMS messages be deprecated as a means of delivering a second factor for multifactor authentication because they may be accessible to attackers. SMS is unable to be encrypted (at least without adding additional applications to phones). A third factor is typically not a user-friendly recommendation and would be better handled by replacing SMS with the proposed third factor instead. SMS is not a costly method since it can be deployed for less than $20/month at scale.
+
+OBJ-2.1: Endpoint(host) security includes software host-based firewalls, host-based intrusion protection systems (HIPS), and anti-virus software. 
+A VPN is not typically considered an endpoint security tool because it is a network security tool.
+
+OBJ-3.7: A managed security service provider (MSSP) provides security as a service (SECaaS). IaaS, PaaS, and SaaS (infrastructure, platform, and software as a service) do not include security monitoring as part of their core service offerings. Security as a service or a managed service provider (MSP) would be better suited for this role. 
+
+OBJ-4.3: Iris scans rely on the matching of patterns on the surface of the eye using near-infrared imaging, and so is less intrusive than retinal scanning (the subject can continue to wear glasses, for instance), and much quicker. 
+
+During which incident response phase is the preservation of evidence performed ->
+OBJ-5.4: A cybersecurity analyst must preserve evidence during the containment, eradication, and recovery phase. They must preserve forensic and incident information for future needs, to prevent future attacks, or to bring up an attacker on criminal charges. Restoration and recovery are often prioritized over analysis by business operations personnel, but taking time to create a forensic image is crucial to preserve the evidence for further analysis and investigation. During the preparation phase, the incident response team conducts training, prepares their incident response kits, and researches threats and intelligence. During the detection and analysis phase, an organization focuses on monitoring and detecting any possible malicious events or attacks. During the post-incident activity phase, the organization conducts after-action reports, creates lessons learned, and conducts follow-up actions to better prevent another incident from occurring.
+
+OBJ-6.1: The only truly unbreakable encryption is one that uses a one-time use pad. This ensures that every message is encrypted with a different shared key that only the two owners of the one-time use pad would know. This technique ensures that there is no pattern in the key for an attacker to guess or find. 
+
+OBJ-2.1: Data loss prevention (DLP) software detects potential data breaches/data exfiltration transmissions and prevents them by monitoring, detecting, and blocking sensitive data while in-use, in-motion, and at-rest.
+
+OBJ-4.3: Retinal scans utilize an infrared light that is shone into the eye to identify the pattern of blood vessels.
+
+OBJ-3.2: Netflow is a flow analysis tool. Netflow does not capture the full packet capture of data as it crosses the network sensor but instead captures metadata and statistics about the network traffic. 
+
+Hash is correct. To create a digital signature for a document, you hash the document using your private key. Others can verify your digital signature with your public key.
+
+Kerberos uses UDP port 88 
+
+OBJ-6.3: Captive portals usually rely on 802.1x, and 802.1x uses RADIUS for authentication.
+
+OBJ-1.4: The beacon's protocol is not typically a means of identifying a malware beacon. A beacon can be sent over numerous protocols, including ICMP, DNS, HTTP, and numerous others. Unless you specifically knew the protocol being used by the suspected beacon, filtering out beacons by the protocol seen in the logs could lead you to eliminate malicious behavior prematurely. Other factors like the beacon's persistence (if it remains after a reboot of the system) and the beacon's interval (how much time elapses between beaconing)are much better indicators for fingerprinting a malicious beacon. The removal of known traffic by the script can also minimize the amount of data the cybersecurity analyst needs to analyze, therefore making it easier to detect the malicious beacon without wasting their time reviewing non-malicious traffic.
+
+OBJ-4.3: HMAC-based One-time Password Algorithm (HOTP) is an algorithm for token-based authentication. The authentication server and client token are configured with the same shared secret. The token could be a fob-type device or implemented as a smartphone app. The token does not have an expiration under HOTP, but an improved version known as TOTP does include token expirations.
+
+OBJ-3.7: Desktop as a Service (DaaS) provides a full virtualized desktop environment from within a cloud-based service. This is also known as VDI (Virtualized Desktop Infrastructure) and is coming in large enterprise businesses that are focused on increasing their security and minimizing their operational expenses. Shadow PC (shadow.tech) provides a version of DaaS for home users who want to have a gaming PC without all the upfront costs.
+
+OBJ-5.5: Both hardware and software write blockers are designed to ensure that forensic software and tools cannot change a drive inadvertently by accessing it. But, since the question indicates that you need to choose the BEST solution to protect the contents of the drive from being changed during analysis, you should pick the hardware write blocker. The primary purpose of a hardware write blocker is to intercept and prevent (or 'block') any modifying command operation from ever reaching the storage device. A forensic drive duplicator simply copies a drive and validates that it matches the original drive, but cannot be used by itself during analysis. A degausser is used to wipe magnetic media. Therefore, it should not be used on the drive since it would erase the contents of the hard drive.
+
+What best describes how these various devices are placed into the network for the highest level of security?
+
+OBJ-3.1: Defense in depth is the concept of layering various network appliances and configurations to create a more secure and defensible architecture. Dion Training appears to be using various host-based and network-based devices to help ensure there are multiple layers of security in the network.
+
+OBJ-3.2: The organization should enable sampling of the data collected. Sampling can help them to capture network flows that could be useful without collecting everything passing through the sensor. This reduces the bottleneck of 2 Gbps and still provide useful information. Quality of Service (QoS) is a set of technologies that work on a network to guarantee its ability to run high-priority applications and traffic dependably, but that does not help in this situation. Compressing NetFlow data helps save disk space, but it does not increase the capacity of the bottleneck of 2 Gbps during collection. Enabling full packet capture would take even more resources to process and store, as well as not minimizing the bottleneck of 2 Gbps during collection.
+
+BJ-2.1: Network Access Control (NAC) uses a set of protocols to define and implement a policy that describes how to secure access to network nodes whenever a device initially attempts to access the network. NAC can utilize an automatic remediation process by fixing non-compliant hosts before allowing network access. Network Access Control can control access to a network with policies, including pre-admission endpoint security policy checks and post-admission controls over where users and devices can go on a network and what they can do. In this scenario, implementing NAC can identify which machines are known and trusted Dion Training assets, and provide them with access to the secure internal network. NAC could also determine which are unknown machines (assumed to be those of CompTIA employees), and provide them with direct internet access only by placing them onto a guest network or VLAN. While MAC filtering could be used to allow or deny access to the network, it cannot by itself control which set of network resources could be utilized from a single ethernet port. A security information and event management (SIEM) system provides real-time analysis of security alerts generated by applications and network hardware. An access control list could define what ports, protocols, or IP addresses the ethernet port could be utilized, but it would be unable to distinguish between a Dion Training employee's laptop and a CompTIA employee's laptop like a NAC implementation could.
+
+OBJ-5.5: Due to the deletion of the VM disk image, you will now have to conduct file carving or other data recovery techniques to recover and remediate the virtualized server.
+
+A cognitive password is a form of knowledge-based authentication that requires a user to answer a question, presumably something they intrinsically know, to verify their identity. If you post a lot of personal information about yourself online, then this type of password can easily be bypassed. For example, during the 2008 elections, Vice Presidential candidate Sarah Palin's email account was hacked because a high schooler used the "reset my password" feature on the Yahoo's email service to reset her password using the information that was publically available about Sarah Palin (like her birthday, high school, and other such information).
+
+Banner grabbing is conducted by actively connecting to the server using telnet or netcat and collecting the response from the web server. This banner usually contains the operating system being run by the server as well as the version number of the service (SSH) being run. This is the fastest and easiest way to determine the version of SSH being run on this web server. While it is possible to use a vulnerability scanner, protocol analyzer, or to conduct a passive scan to determine the version of SSH, these are more time consuming and not fully accurate methods to determine the version being run.
+
+Application whitelisting will only allow a program to execute if it is specifically listed in the approved exception list. All other programs are blocked from running. This makes it the BEST mitigation again a 11zero-day11 virus
+
+Remote Authentication Dial-In User Service (RADIUS) is a networking protocol, operating on port 1812 that provides centralized Authentication, Authorization, and Accounting (AAA or Triple A) management for users who connect and use a network service. The RADIUS protocol utilizes an obfuscated password that is created from the shared secret and creates a MD5 hash of the authentication request to protect the communications.. 
+
+OBJ-4.2: Shibboleth is a standards-based, open-source software package for single sign-on across or within organizational boundaries on the web. It allows sites to make informed authorization decisions for individual access of protected online resources in a privacy-preserving manner. Shibboleth utilizes SAML to provide this federated single sign-on and attribute exchange framework.
+
+OBJ-2.2: The best option is MAC address reporting coming from a source device like a router or a switch. If the company uses a management system or inventory process to capture these addresses, then a report from one of these devices will show what is connected to the network even when they are not currently in the inventory. This information could then be used to track down rogue devices based on the physical port it is connected to on a network device.
