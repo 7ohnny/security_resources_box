@@ -1,3 +1,5 @@
+Draft v2.0
+
 ## Checklists
 
 Security Consulting project analyzing a software product
@@ -7,11 +9,11 @@ Security Consulting project analyzing a software product
 
 ### API
 
-Check JWT token data (key, inserted data and token);
+Check JWT token data (key, inserted data, and token);
 Check the JWT token algorithm to prevent the use of the “none” technique;
 Avoid control mechanisms implemented exclusively on the client side;
 Check files uploaded in the upload mechanism (in this case, allow only images to be sent);
-Protect information in transit (e.g. using HTTPS);
+Protect the information in transit (e.g. using HTTPS);
 Validate access control to avoid escalating privileges;
 Store uploaded files securely;
 Expose only what is necessary to the Internet;
@@ -22,28 +24,28 @@ Do not allow API calls in an unauthenticated;
 
 Employ anti-automation mechanisms in authentication and in features considered critical;
 Minimize the attack surface, exposing only what is necessary to the Internet;
-Functionalities should be designed with the aim of avoiding enumerations of users, technologies used, or any resources that could serve as input for attacks;
+Functionalities should be designed to avoid enumerations of users, technologies used, or any resources that could serve as input for attacks;
 Ensure unpredictability and expiration of session or integration tokens;
-Use measures such as Certificate Pinning, IP whitelist or mutual authentication, to mitigate attacks on information in transit and other abuses;
+Use measures such as Certificate Pinning, IP whitelist, or mutual authentication, to mitigate attacks on information in transit and other abuses;
 Do not allow "normal" application execution on devices with Root, Jailbreak, or Developer mode enabled;
 Employ source code obfuscation;
 Use robust technology for unique device identification, and device fingerprint management;
-Application must not allow backup of your files;
+An application must not allow backup of your files;
 
 Remove as much sensitive information from the client-side (cache, log, PList files, shared_prefs, etc.).
 
 ### General recommendation
 
-Check JWT token data (key, inserted data and token);
+Check JWT token data (key, inserted data, and token);
 Check the JWT token algorithm to prevent the use of the “none” technique;
 Avoid control mechanisms implemented exclusively on the client side;
 Check files uploaded in the upload mechanism (in this case, allow only images to be sent);
-Protect information in transit (e.g. using HTTPS);
+Protect the information in transit (e.g. using HTTPS);
 Validate access control to avoid escalating privileges;
 Store uploaded files securely;
 
 
-### WAF / API Gateway / Sistema de Logs / etc
+### WAF / API Gateway / Logging
 
 Logs with data with sensitive information;
     passwords
@@ -60,10 +62,13 @@ Rules review;
     AllowLists
     Continuous maintenance and adjustments of
 
-### Aplicação
+### Application
 
-Track libs / dependencies;
+Track libs/dependencies;
 Training of developers;
+Code review;
+Pentest;
+SDLC;
 
 ### Onboarding
 
@@ -78,17 +83,26 @@ Well-defined playbook;
 Escalation of events
 Well-defined recovery plan;
 
-WIP
-
 ### Sec squad
+
+Manage Vulnerabilities;
+Map the risks;
+Procedures;
 
 ### Threat Intel squad
 
 ### Dev squad
 
-### Motor Antifraude / Orquestrador
+###  Anti Fraud solution / Orchestration
+
+Check Cadence;
+Check Rules;
 
 ### Squad Fraud prevention
+
+Playbooks;
+Investigation;
+Rules management;
 
 ### Client's support
 
@@ -96,7 +110,7 @@ WIP
 
 ### Cloud
 
-### Third-party squad
+### Third-party contractors
 
 ### Links
 

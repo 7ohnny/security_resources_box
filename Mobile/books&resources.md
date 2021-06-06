@@ -11,6 +11,10 @@ https://book.hacktricks.xyz/mobile-apps-pentesting/android-app-pentesting/frida-
 
 
 # Frida
+
+frida-box:
+https://github.com/7ohnny/frida-box
+
 https://erev0s.com/blog/frida-code-snippets-for-android/
 https://github.com/iddoeldor/frida-snippets#string-comparison
 https://www.hooperlabs.xyz/mobile/uncrackable1.php

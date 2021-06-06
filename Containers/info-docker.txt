@@ -1,12 +1,12 @@
 Docker cheat-sheet
 
-sudo apt install docker.io
+ apt install docker.io
 
-sudo groupadd docker
+ groupadd docker
 
-sudo gpasswd -a $USER docker
+ gpasswd -a $USER docker
 
-sudo service docker restart
+ service docker restart
 
 docker run image
 docker start name|id

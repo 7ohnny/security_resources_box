@@ -1,3 +1,6 @@
+:Brazil OSINT:
+https://github.com/osintbrazuca/OSINT-Brazuca
+
 :The Links:
 https://osintframework.com/ (Reunited resources and links)
 https://inteltechniques.com/menu.html (tools)
