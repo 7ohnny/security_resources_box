@@ -8,10 +8,13 @@ ISO
 PCI
 HIPPA
 
-## Scan multicloud env
+## Some tools
 
 [Cloudsploit](https://github.com/aquasecurity/cloudsploit)
 [Scout Suite](https://github.com/nccgroup/ScoutSuite)
+[CloudBrute](https://github.com/0xsha/CloudBrute)
+[Cloud Custodian](https://cloudcustodian.io/docs/index.html)
+[Pacu](https://github.com/RhinoSecurityLabs/pacu)
 
 
 # AWS

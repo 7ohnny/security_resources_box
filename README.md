@@ -8,6 +8,7 @@ Always Under development ^^
 
 - [stay_tuned.md](stay_tuned.md)
 - [reunited_resources.md](reunited_resources.md)
+- CompTia tests in the folder - certifications (Security+, Pentest+ and Cysa+)
 
 ## RoadMap
 TODO - WIP

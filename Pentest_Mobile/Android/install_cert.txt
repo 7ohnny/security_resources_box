@@ -1,0 +1,22 @@
+Install CA Burp in Android version 7+ (API >= 24)
+
+* Install Burp CA as a system-level trusted CA
+
+openssl x509 -inform DER -in cacert.der -out cacert.pem  
+openssl x509 -inform PEM -subject_hash_old -in cacert.pem |head -1  
+mv cacert.pem <hash>.0  
+
+adb root  
+adb remount  
+adb push <cert>.0 /sdcard/  
+
+
+The just drop into a shell (adb shell) and move the file to /system/etc/security/cacerts and chmod it to 644:
+
+mv /sdcard/<cert>.0 /system/etc/security/cacerts/  
+chmod 644 /system/etc/security/cacerts/<cert>.0 
+
+After the device reboots, browsing to Settings -> Security -> Trusted Credentials should show the new "Portswigger CA" as a system trusted CA.
+
+source:
+https://blog.ropnop.com/configuring-burp-suite-with-android-nougat/
