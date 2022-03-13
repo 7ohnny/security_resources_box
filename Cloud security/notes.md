@@ -1,6 +1,6 @@
 Cloud security resources
 
-## Frameworks 
+## Frameworks/Standards
 
 CIS
 NIST

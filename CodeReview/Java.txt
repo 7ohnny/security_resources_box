@@ -1,7 +1,13 @@
 To check:
 
-Usage of .random for critical oprations
+Usage of .random for critical operations
 passwords related functions
     stored
     validation
 sql queries and "order by"
+Input from the user and from Requests objects
+Serialization
+Error messages
+Exceptions
+HTML encode features
+Access Matrix features
